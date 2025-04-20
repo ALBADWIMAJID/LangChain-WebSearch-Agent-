@@ -30,7 +30,7 @@ This repository is the final result of **Lab 5 - Dialogue Systems**. It walks th
 
 ## 📂 File Structure
 
-```bash
+
 .
 ├── lab5_web_search.py     # Main Python pipeline (LangChain experiments)
 ├── langchain_results.csv  # Exported results of all experiment runs
@@ -39,35 +39,24 @@ This repository is the final result of **Lab 5 - Dialogue Systems**. It walks th
 🚀 Quick Start
 Clone the repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/ALBADWIMAJID/LangChain-WebSearch-Agent-.git
 cd LangChain-WebSearch-Agent-
 Set up virtual environment:
 
-bash
-Copy
-Edit
 python -m venv venv
 venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
 Configure OpenAI key (set as environment variable):
 
-bash
-Copy
-Edit
+
 $env:OPENAI_API_KEY="your-api-key-here"  # PowerShell
 Run the lab pipeline:
 
-bash
-Copy
-Edit
+
 python lab5_web_search.py
-📸 Example Screenshot
 python-repl
-Copy
-Edit
+
 (venv) PS C:\Users\albad\Desktop\...\lab5_web_search> python lab5_web_search.py
 === 1. Что такое LangChain ===
 LangChain — это фреймворк...
