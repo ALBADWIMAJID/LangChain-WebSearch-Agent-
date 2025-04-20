@@ -32,10 +32,10 @@ This repository is the final result of **Lab 5 - Dialogue Systems**. It walks th
 
 
 .
-├── lab5_web_search.py     # Main Python pipeline (LangChain experiments)
-├── langchain_results.csv  # Exported results of all experiment runs
-├── README.md              # Project documentation
-├── requirements.txt       # Dependencies to recreate environment
+lab5_web_search.py     # Main Python pipeline (LangChain experiments)
+ langchain_results.csv  # Exported results of all experiment runs
+ README.md              # Project documentation
+ requirements.txt       # Dependencies to recreate environment
 🚀 Quick Start
 Clone the repository:
 
