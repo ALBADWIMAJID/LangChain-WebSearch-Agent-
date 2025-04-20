@@ -86,9 +86,12 @@ Tavily Search Tool
 
 OpenAI API
 
-📌 Author
-Majid Albadwi
-LangChain-WebSearch-Agent · April 2025
-Educational project — Dialogue Systems (Lab 5)
+## 🙏 Based on Original Work
+
+This project is based on the educational repository by [@ChS23](https://github.com/ChS23) from the Dialogue Systems Course:
+➡️ [Original Project](https://github.com/ChS23/dialogue-systems-course/tree/main/lab5_web_search)
+
+Modifications and customization were made by Majid Albadwi as part of Lab 5 work in April 2025.
+
 
 
