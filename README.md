@@ -37,55 +37,26 @@ This repository is the final result of **Lab 5 - Dialogue Systems**. It walks th
 ├── README.md              # Project documentation
 ├── requirements.txt       # Dependencies to recreate environment
 
-🚀 Quick Start
-Clone the repository:
-
-
 git clone https://github.com/ALBADWIMAJID/LangChain-WebSearch-Agent-.git
 cd LangChain-WebSearch-Agent-
-Set up virtual environment:
 
 python -m venv venv
 venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
-Configure OpenAI key (set as environment variable):
 
 
 $env:OPENAI_API_KEY="your-api-key-here"  # PowerShell
-Run the lab pipeline:
 
 
 python lab5_web_search.py
-python-repl
 
 (venv) PS C:\Users\albad\Desktop\...\lab5_web_search> python lab5_web_search.py
 === 1. Что такое LangChain ===
 LangChain — это фреймворк...
 ...
 Результаты сохранены в langchain_results.csv
-✅ The script generates outputs, executes agents and tools, logs results, and saves them to CSV.
 
-📈 Results
-All experiment results are stored in langchain_results.csv. Each entry includes:
 
-Experiment section
-
-Prompt and query used
-
-Model type and settings
-
-Approach (tool use, agent, context injection)
-
-Final output from the model or tool
-
-📚 Resources
-LangChain Docs
-
-LangChain GitHub
-
-Tavily Search Tool
-
-OpenAI API
 
 ## 🙏 Based on Original Work
 
@@ -93,6 +64,4 @@ This project is based on the educational repository by [@ChS23](https://github.c
 ➡️ [Original Project](https://github.com/ChS23/dialogue-systems-course/tree/main/lab5_web_search)
 
 Modifications and customization were made by Majid Albadwi as part of Lab 5 work in April 2025.
-
-
 
