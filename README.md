@@ -40,27 +40,34 @@ This repository is the final result of **Lab 5 - Dialogue Systems**. It walks th
 Clone the repository:
 
 bash
-
+Copy
+Edit
 git clone https://github.com/ALBADWIMAJID/LangChain-WebSearch-Agent-.git
 cd LangChain-WebSearch-Agent-
 Set up virtual environment:
 
-
-
+bash
+Copy
+Edit
 python -m venv venv
 venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
 Configure OpenAI key (set as environment variable):
 
-
+bash
+Copy
+Edit
 $env:OPENAI_API_KEY="your-api-key-here"  # PowerShell
 Run the lab pipeline:
 
-
+bash
+Copy
+Edit
 python lab5_web_search.py
 📸 Example Screenshot
 python-repl
-
+Copy
+Edit
 (venv) PS C:\Users\albad\Desktop\...\lab5_web_search> python lab5_web_search.py
 === 1. Что такое LangChain ===
 LangChain — это фреймворк...
@@ -95,13 +102,4 @@ Majid Albadwi
 LangChain-WebSearch-Agent · April 2025
 Educational project — Dialogue Systems (Lab 5)
 
-🧠 Tip
-Want to expand this? Try adding memory support, document Q&A, or a Streamlit interface!
 
-yaml
-Copy
-Edit
-
----
-
-Would you like me to push this automatically to your GitHub, or would you prefer to copy it and replace th
